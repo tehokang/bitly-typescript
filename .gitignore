@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+dist/
+
+# TypeScript output files
+*.js
+*.js.map
+
+# Environment files
+.env
+.env.production
+.env.test
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.log
+*.log.*
+*.swp
+
+# Build files
+.DS_Store
+Thumbs.db
