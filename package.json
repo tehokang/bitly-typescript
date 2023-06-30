@@ -1,8 +1,8 @@
 {
   "name": "bitly-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/example.js",
-	"readme": "readme.md",
+  "readme": "README.md",
   "license": "MIT",
   "scripts": {
     "start": "tsc && ts-node src/examples/example.ts"
@@ -22,11 +22,11 @@
   "description": "Bitly client example",
   "repository": "https://github.com/tehokang/bitly-typescript",
   "author": "teho",
-	"keywords": [
-		"bitly",
-		"bitly example",
-		"bitly client",
-		"nodejs",
-		"typescript"
-	]
+  "keywords": [
+    "bitly",
+    "bitly example",
+    "bitly client",
+    "nodejs",
+    "typescript"
+  ]
 }
