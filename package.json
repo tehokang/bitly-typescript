@@ -1,0 +1,30 @@
+{
+  "name": "bitly-typescript",
+  "version": "1.0.0",
+  "main": "dist/example.js",
+	"readme": "readme.md",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && ts-node src/examples/example.ts"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "axios-debug-log": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "@types/readline-sync": "^1.4.4"
+  },
+  "description": "Bitly client example",
+  "repository": "https://github.com/tehokang/bitly-typescript",
+  "author": "teho",
+	"keywords": [
+		"bitly",
+		"bitly example",
+		"bitly client"
+	]
+}
