@@ -1,6 +1,6 @@
 {
   "name": "bitly-typescript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/example.js",
   "readme": "README.md",
   "license": "MIT",
