@@ -1,12 +1,12 @@
 {
   "name": "bitly-typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/example.js",
   "readme": "README.md",
   "license": "MIT",
   "scripts": {
-		"clean": "rm -fr dist",
-		"build": "tsc",
+    "clean": "rm -fr dist",
+    "build": "tsc",
     "start": "yarn build && ts-node src/examples/example.ts"
   },
   "dependencies": {
