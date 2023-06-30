@@ -2,6 +2,7 @@
   "name": "bitly-typescript",
   "version": "1.0.3",
   "main": "dist/example.js",
+	"types": "dist/lib/bitly-client.d.ts",
   "readme": "README.md",
   "license": "MIT",
   "scripts": {

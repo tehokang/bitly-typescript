@@ -5,7 +5,7 @@ This Bitly client is working on nodejs or typescript including an example to ver
 ## Installation
 
 ```bash
-yarn add bitly-typescript
+yarn add bitly-typescript @types/bitly-typescript
 ```
 
 ## Example
