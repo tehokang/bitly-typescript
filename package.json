@@ -5,7 +5,9 @@
   "readme": "README.md",
   "license": "MIT",
   "scripts": {
-    "start": "tsc && ts-node src/examples/example.ts"
+		"clean": "rm -fr dist",
+		"build": "tsc",
+    "start": "yarn build && ts-node src/examples/example.ts"
   },
   "dependencies": {
     "axios": "^1.4.0",
