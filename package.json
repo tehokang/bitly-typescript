@@ -1,7 +1,14 @@
 {
   "name": "bitly-typescript",
-  "version": "1.0.8",
-  "types": "dist/lib/bitly-client.d.ts",
+  "version": "1.0.9",
+  "main": "dist/lib/bitly-client.js",
+  "exports": {
+    ".": {
+      "types": "./dist/lib/bitly-client.d.ts",
+      "import": "./dist/lib/bitly-client.js",
+      "default": "./dist/lib/bitly-client.js"
+    }
+  },
   "readme": "README.md",
   "license": "MIT",
   "scripts": {
@@ -23,7 +30,7 @@
   },
   "description": "Bitly client example",
   "repository": "https://github.com/tehokang/bitly-typescript",
-  "author": "teho",
+  "author": "teho <tehokang@gmail.com>",
   "keywords": [
     "bitly",
     "bitly example",
