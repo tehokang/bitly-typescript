@@ -27,7 +27,7 @@ Once you clone this repository, then run an example as following,
 ```
 
 You can see the tests and how they work. You should prepare ".env" hidden file to get your bitly access token.
-The hidden file looks like following.
+The hidden file looks like following. Basically all of functionalities will be included in Bitly class.
 
 ```bash
 GROUP_ID=xxxxxxxxxxx
